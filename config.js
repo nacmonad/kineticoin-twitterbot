@@ -14,9 +14,10 @@ exports.tokenContract = function () {
 
 module.exports.twitterConfig = () => {
   return {
-    consumer_key: '',
-    consumer_secret: '',
-    access_token: '',
-    access_token_secret: ''
+    consumer_key: 'l70DFYiHrIo0f5ty6nDhxIPtd',
+    consumer_secret: 'BWOlbdyAWynRa60g5nhMsDAwZ1YDb5niU0k9jkDV6VUzUxPcGj',
+    access_token: '919854505625292802-ihMCqXMAjbWC5PfOkkTUS8Se2VEB07v',
+    access_token_secret: 'mgfIZJZ69XsLR4AkISYW2OJI2hzkvZkeDncZXZz3vcBB1',
+    timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
   }
 }
